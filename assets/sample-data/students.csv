@@ -1,0 +1,3 @@
+course_code,batch_code,first_name,last_name,gender,date_of_birth,father_name,mother_name,address,city,zip,state,nationality,phone,qualification,email,is_active,username,password
+101,01,Deepak,one,male,9/2/2015,sdsd,fsdffdsf,dfsfsdfsdf,dfsffsdsdf,324009,raj,indian,8003424140,MCA,test.student-one@gmail.com,yes,test.student-one,123456
+102,01,TEST 2,"TESt 3 ",female,9/2/2014,sdsd1,sdsd2,dfsfsdfsdf254,dfsfsdfsdf5,324009,raj,indian,8003424140,BCA,test.student-two@gmail.com,yes,test.student-two,123456

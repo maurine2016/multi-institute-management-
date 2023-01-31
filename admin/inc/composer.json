@@ -1,0 +1,7 @@
+{
+    "require": {
+        "nexmo/client": "^1.6",
+        "stripe/stripe-php": "^6.30",
+        "instamojo/instamojo-php": "^1.0"
+    }
+}

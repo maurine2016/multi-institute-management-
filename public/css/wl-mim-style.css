@@ -1,0 +1,716 @@
+.wl_im_container input[type=number], .wl_im select.form-control:not([size]):not([multiple]) {
+    height: unset;
+    line-height: unset;
+}
+
+.wl_im_container .wlim_select_col {
+    margin-top: -2px;
+}
+
+.wl_im_container {
+    color: #1a1a1a;
+}
+
+.wl_im_container, .toast-success, .wl_im .btn, .wl_im button, .wl_im input, .wl_im optgroup, .wl_im select, .wl_im textarea, .wl_im .form-control {
+    font-size: 16px;
+}
+
+.wl_im .btn {
+    font-weight: 600;
+}
+
+.wl_im button:hover, .wl_im input[type="button"]:hover, .wl_im input[type="reset"]:hover, .wl_im input[type="submit"]:hover,
+.wl_im button:focus, .wl_im input[type="button"]:focus, .wl_im input[type="reset"]:focus, .wl_im input[type="submit"]:focus {
+    background-color: #3C4858;
+    color: #fff;
+}
+
+.wl_im_container .wl_im_heading_title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wl_im_container .wl_im_heading_title h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #3C4858;
+}
+
+.wl_im_container .wl_im_heading_title h2 > span {
+    border-bottom: 1px solid #dddede;
+}
+
+.wl_im_container span.text-danger {
+    line-height: 2.4em;
+    font-weight: bold;
+}
+
+.wl_im_container textarea {
+    resize: vertical;
+}
+
+.wl_im_container textarea[name="address"] {
+    min-height: 105px;
+}
+
+.wl_im_container textarea[name="message"] {
+    min-height: 86px;
+}
+
+#wlmim-result-institute-logo, .wlmim-result-institute-logo {
+    max-height: 80px;
+    max-width: 80px;
+}
+
+#wlmim-result-institute-address, .wlmim-result-institute-address {
+    font-size: 14px;
+}
+
+#wlmim-result-institute-title-box {
+    padding-top: 5px;
+}
+
+#wlmim-result-institute-contact-phone, .wlmim-result-institute-contact-phone, #wlmim-result-institute-contact-email, .wlmim-result-institute-contact-email {
+    font-size: 14px;
+}
+
+#wlmim-result-institute-name, .wlmim-result-institute-name {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.wlim-result-student-marks {
+    z-index: 99999 !important;
+}
+
+/* Start: Admit card */
+#wl-admit-card-photo-box {
+    height: 150px;
+    width: 130px;
+    border: 1px solid #b3b3b3;
+    padding: 5px;
+    text-align: center;
+}
+
+#wl-admit-card-photo {
+    height: 140px;
+}
+
+#wl-admit-card-photo {
+    width: 120px;
+}
+#wlmim-admit-card-print h5.text-center {
+    font-size: 18px!important;
+    font-weight: 600!important;
+    margin-top: 20px;
+}
+@media print {
+    #wlmim-admit-card-print h5.text-center {
+        font-size: 18px!important;
+        font-weight: 600!important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #wlmim-admit-card-print th, #wlmim-admit-card-print td {
+        border: 0;
+        text-align: left;
+    }
+    #wlmim-admit-card-print .card-body {
+        padding: 40px!important;
+    }
+    #wlmim-admit-card-print .col-sm-12.mb-1 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    #wlmim-admit-card-print .col-3.text-right{
+        margin-right:20px;
+    }
+    #wlmim-admit-card-print .col-3.text-right img{
+        margin-bottom:15px;
+        margin-top: 40px
+    }
+    #wlmim-admit-card-print  .col-3.text-right , #wlmim-admit-card-print  .col-9.text-left{
+        float: left;
+        padding:15px;
+        padding-bottom: 0px;
+        margin-bottom: 0;
+        height:100px;
+    }
+    #wlmim-admit-card-print  .col-sm-12.mb-3>.row {
+        display: flex;
+        align-items: center;
+    }
+    #wlmim-admit-card-print  .p-1 {
+        padding: 5px!important;
+    }
+    #wlmim-admit-card-print  h5.text-center,   #wlmim-admit-card-print  .mt-5.ml-2  {
+        font-size: 18px!important;
+        font-weight: 600!important;
+        margin-top: 20px!important;
+        padding-top: 20px!important;
+    }
+
+    #wlmim-admit-card-print  h5.text-center{
+        height:40px!important;
+        line-height: 25px;
+    }
+    #wlmim-admit-card-print .col-sm-9 {
+        float: left;
+        width: 75%;
+    }
+    #wlmim-admit-card-print .col-sm-3 {
+        float: left;
+        width: 25%;
+    }
+    .wlmim-notes:before {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 650px !important;
+    }
+
+    #print-student, #print-certificate {
+        z-index: 9999;
+    }
+
+    #print-student-dialog, #print-certificate-dialog {
+        max-width: 1980px !important;
+    }
+}
+#wl-admit-card-photo-box {
+    height: 150px;
+    width: 130px;
+    border: 1px solid #b3b3b3;
+    padding: 5px;
+    text-align: center;
+}
+#wl-admit-card-photo {
+    height: 140px;
+}
+#wl-admit-card-photo {
+    width: 120px;
+}
+@media print {
+    #wlmim-admit-card-print th, #wlmim-admit-card-print td {
+        border: 0;
+    }
+    #wlmim-admit-card-print .col-sm-9 {
+        width: 75%;
+    }
+    #wlmim-admit-card-print .col-sm-3 {
+        width: 25%;
+    }
+}
+/* Start: ID Card */
+#wl-id-card .list-group-item {
+    padding: 0px;
+}
+
+#wl-id-card {
+    max-width: 100%;
+    width: 1240px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#wl-id-card-box {
+    width: 533px;
+    height: 330px;
+    max-width: 100%;
+    border: 1px solid #b3b3b3;
+    padding: 5px 0;
+    margin: 0 auto;
+}
+
+#wl-id-card-box ul.list-group.list-group-flush {
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    #wl-id-card-box .col-4 {
+        padding-left: 20px !important;
+        padding-right: 0 !important;
+    }
+    #wl-id-card-box .wl-id-card-signature-box-row {
+        padding-top: 5px;
+        margin-top: 0;
+    }
+    #wl-admission-detail-photo-box, #wl-admission-detail-signature-box {
+        display: none;
+    }
+    #wl-admission-detail .list-group-item, #wl-admission-detail table {
+        font-size: .8rem;
+    }
+    #wl-admission-detail .list-group-item, #wl-admission-detail table {
+        font-size: .8rem;
+    }
+    #wl-admission-detail .col-9, #wl-admission-detail .col-3 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100%  !important;
+    }
+}
+
+#wl-id-card .list-group-item {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#wl-id-card-address {
+    font-size: 12px;
+}
+
+#wl-id-card-photo-box {
+    max-height: 100%;
+    height: 150px;
+}
+
+#wl-id-card-photo {
+    height: 148px;
+    width: 98px;
+}
+
+#wl-id-card-photo-box {
+    max-width: 100%;
+    width: 100px;
+    border: 1px solid #b3b3b3;
+}
+
+#wl-institute-pro-id-card-logo {
+    max-height: 70px;
+    max-width: 70px;
+}
+
+#wl-id-card-title-box {
+    padding-top: 5px;
+}
+
+#wl-id-card-title {
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #6c757d !important;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+#wl-id-card-contact-phone, #wl-id-card-contact-email {
+    font-size: 12px;
+}
+
+#wl-id-card-name {
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.wl-id-card-signature-box-row {
+    margin-top: 14px;
+    font-size: 11px;
+}
+
+#wl-id-card {
+    line-height: 1.1;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+
+    #wl-id-card {
+        line-height: 1;
+    }
+
+    #wl-institute-pro-id-card-logo {
+        max-height: 45px;
+        margin-left: 5px;
+        padding-bottom: 5px;
+        max-width: 45px;
+    }
+
+    #wl-id-card-photo-box {
+        max-height: 100%;
+        width: 65px;
+        height: 94px;
+        text-align: center;
+    }
+
+    #wl-id-card-photo {
+        height: 93px;
+        width: 64px;
+    }
+
+    #wl-id-card-address {
+        font-size: 9px !important;
+        padding: 0;
+        margin: 0;
+    }
+
+    #wl-id-card-name {
+        font-size: 12px !important;
+        padding: 0;
+        margin: 0;
+    }
+
+    #wl-id-card-title {
+        font-size: 10px !important;
+        padding: 0;
+    }
+
+    #wl-id-card-contact-phone, #wl-id-card-contact-email {
+        font-size: 8px !important;
+        padding: 0;
+        margin: 0;
+    }
+
+    #wl-id-card-box {
+        width: 370px !important;
+        height: 228px !important;
+        max-width: 100% !important;
+        border: 1px solid #b3b3b3;
+        padding: 5px 0;
+        margin: 0 auto;
+    }
+
+    #wl-id-card .list-group-item {
+        padding-top: 4px !important;
+        padding-bottom: 4px !important;
+        font-size: 10px !important;
+
+    }
+
+    .wl-id-card-signature-box-row {
+        font-size: 9px !important;
+    }
+}
+/* End: ID Card */
+
+.wl_im .modal-content {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+/* Start: Certificate */
+#wl-certificate {
+    width: 1240px;
+    max-width: 100%;
+    height: 1754px;
+    max-height: 100%;
+    border: 1px solid #b3b3b3;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#wl-certificate-box {
+    margin-top: 30px;
+}
+
+#wl-certificate-content-box {
+    margin: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    #wl-certificate-content-box {
+        margin: 0;
+    }
+    #wl-certificate-content-box .display-3 {
+        font-size: 2.5rem;
+    }
+    .wl-certificate-signature-box-row {
+        font-size: 1rem;
+    }
+}
+
+#wl-institute-pro-certificate-logo {
+    max-height: 120px;
+    max-width: 120px;
+}
+
+#wl-certificate-number {
+    font-size: 16px;
+}
+
+#wl-certificate-name {
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.wl-certificate-text {
+    font-size: 36px;
+}
+
+.wl-certificate-signature-box-row {
+    margin-top: 200px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+
+    #wl-certificate {
+        height: 100vh;
+    }
+
+    #wl-certificate-content-box {
+        margin: 0;
+    }
+
+    #wl-institute-pro-certificate-logo {
+        max-height: 100px;
+        max-width: 100px;
+    }
+
+    #wl-certificate-content-box h1 {
+        display: block;
+        font-size: 56px !important;
+        color: #000;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    #wl-certificate-content-box .wl-certificate-text {
+        font-size: 24px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    #wl-certificate-content-box #wl-certificate-name {
+        color: #000;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    #wl-certificate-number {
+        color: #000;
+        font-size: 14px;
+    }
+
+    .wl-certificate-signature-box-row {
+        margin-top: 200px;
+        color: #000;
+        font-size: 22px;
+        font-weight: 400;
+    }
+}
+
+/* End: Certificate */
+
+/* Signature */
+#wl-id-card .wl-authorized-by {
+    position: absolute;
+    left: 50px;
+    top: 158px;
+    width: 100px;
+    height: 38px;
+}
+@media print {
+    #wl-id-card-box .wl-authorized-by {
+        position: absolute;
+        left: 38px;
+        top: 105px;
+        width: 70px;
+        height: 28px;
+    }
+}
+#wl-certificate .wl-authorized-by {
+    position: absolute;
+    left: 396px;
+    top: -80px;
+    width: 160px;
+    height: 80px;
+}
+@media print {
+    #wl-certificate .wl-authorized-by {
+        position: absolute;
+        left: 160px;
+        top: -65px;
+        width: 140px;
+        height: 70px;
+    }
+}
+#wlmim-admit-card-print .wl-authorized-by {
+    position: absolute;
+    left: 2px;
+    top: 164px;
+    width: 160px;
+    height: 55px;
+}
+@media print {
+    #wlmim-admit-card-print .wl-authorized-by {
+        position: absolute;
+        left: 510px;
+        top: 380px;
+        width: 135px;
+        height: 40px;
+    }
+}
+
+/* End Signature */
+
+
+
+/* Start: Fee Receipt */
+#wl-installment-fee-receipt {
+    width: 1240px;
+    height: 1754px;
+    margin: 0 auto;
+}
+
+#wl-installment-fee-receipt-box {
+    max-width: 750px;
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#wl-installment-fee-receipt .list-group-item {
+    font-size: 13px;
+}
+
+#wl-installment-fee-receipt table tr {
+    font-size: 13px;
+}
+
+#wl-installment-fee-receipt-photo-box, #wl-installment-fee-receipt-photo {
+    height: 160px;
+    width: 124px;
+}
+
+#wl-installment-fee-receipt-photo-box {
+    border: 1px solid #b3b3b3;
+}
+
+#wl-installment-fee-receipt-signature-box, #wl-installment-fee-receipt-signature {
+    height: 70px;
+    width: 124px;
+    border: 1px solid #b3b3b3;
+}
+
+#wl-installment-fee-receipt-signature-box {
+    border: 1px solid #b3b3b3;
+}
+
+#wl-institute-pro-fee-receipt-logo {
+    max-height: 70px;
+    max-width: 70px;
+}
+
+#wl-fee-receipt-address {
+    font-size: 12px;
+}
+
+#wl-installment-fee-receipt-title-box {
+    padding-top: 25px;
+}
+
+#wl-installment-fee-receipt-title {
+    font-weight: 600;
+    background-color: #6c757d !important;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.wl-fee-receipt-signature-box-row {
+    margin-top: 380px;
+}
+
+#wl-fee-receipt-photo-box, #wl-admission-detail-signature-box {
+    width: 185px;
+    border: 1px solid #b3b3b3;
+    padding: 5px;
+}
+
+#wl-fee-receipt-contact-phone, #wl-fee-receipt-contact-email {
+    font-size: 12px;
+}
+
+.wl-receipt-number {
+    font-size: 13px;
+}
+
+#wl-fee-receipt-name {
+    font-size: 19px;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+/* End: Fee Receipt */
+
+/* Start: Fees Report */
+.wl-fees-report-section {
+    width: 1131px;
+    height: 1600px;
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.wl-fees-report-box {
+    margin-top: 30px;
+}
+
+.wl-institute-pro-fees-report-logo {
+    max-height: 70px;
+    max-width: 70px;
+}
+
+.wl-fees-report-section .list-group-item {
+    font-size: 12px;
+}
+
+.wl-fees-report-section table tr {
+    font-size: 12px;
+}
+
+.wl-fees-report-address {
+    font-size: 11px;
+}
+
+.wl-fees-report-contact-phone, .wl-fees-report-contact-email {
+    font-size: 11px;
+}
+
+.wl-fees-report-subtitle {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #6c757d !important;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.wl-fees-report-copy {
+    font-size: 14px;
+}
+
+.wl-fees-report-name {
+    font-size: 17px;
+}
+
+.wl-fees-report-authorised-by-row {
+    margin-top: 24px;
+    font-size: 12px;
+    float: right;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+/* End: Fees Report */

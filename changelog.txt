@@ -1,0 +1,271 @@
+Ver 6.9 (24-12-2022)
+========
+* In attendance only active students will show
+
+Ver 6.8 (22-12-2022)
+========
+* batch never ending issue fixed
+
+Ver 6.7 (06-12-2022)
+========
+* PHP 8.1 Support Added
+
+Ver 6.6 (16-11-2022)
+========
+* certificate size issue fixed.
+* enrollment id with separate Setting bug fixed.
+
+Ver 6.5 (02-09-2022)
+========
+* Enrollment id issue has been fixed.
+
+Ver 6.4 (5-08-2022)
+========
+* Invoice print issue has been fixed(showing blank).
+* Plugin Reset has been fixed(not saving before).
+* Institute Settings bug has been fixed.
+
+Ver 6.3 (07-07-2022)
+========
+* fixes  : student enrollment issue fixed.
+
+Ver 6.2 (12-04-2022)
+========
+* fixes  : student table issue fixed.
+* Added  : QR code generation.
+* Added  : Now you can create never ending batch.
+* Fixed  : Print student issue have been fixed.
+
+Ver 6.1 (26-03-2022)
+========
+* fixes  : student Dashboard issue fixed.
+
+Ver 6.0 (08-03-2022)
+========
+* fixes  : Sms templates.
+
+Ver 5.9 (03-03-2022)
+========
+* fixes  : intechno point sms
+
+Ver 5.8 (06-01-2022)
+========
+* fixes  : bug fix
+* fixes  : Tested on php 8.0
+
+Ver 5.7 (07-07-2021)
+========
+* Update  : Students enrollment ids is now seperate from every institute.
+
+Ver 5.6 (18-06-2021)
+========
+* Update  : infigopoint and MsgClub api updated
+
+Ver 5.5 (28-05-2021)
+========
+* Fixed  : Fee Type update bug fixed
+* Added  : exam results layout updated and extra information added.
+* Added  : exam results print button.
+* fixed  : exam results Assign bug fixed.
+
+Ver 5.4 (24-05-2021)
+========
+* Fixed  : Certificate placeholder bug.
+* Added  : admin add courses option added in institute update.
+
+Ver 5.3 (06-May-2021)
+========
+* Added  : Exam mark sheet now have the theory and practical marks.
+* Updated: Exam mark sheet updated
+* Added  : Now students Results can be printed
+
+Ver 5.2 (30-April-2021)
+========
+* Fixed : Sql issues after activation.
+* Fixed : Plugin Reset Fixed.
+
+Ver 5.1 (23-April-2021)
+========
+* Updated : institute Setting will show according to institute now.
+* Fixed : Fee type is not showing when registering students.
+
+Ver 5.0 (09-April-2021)
+========
+* Added : Instamojo Payment gateway.
+* Added : Student Bulk Import.
+
+Ver 4.9 (16-March-2021)
+========
+* Updated : Strip library updated.
+
+Ver 4.8 (08-March-2021)
+========
+* Fixed : Front-end Enquiry success message fixed.
+
+Ver 4.7 (05-Feb-2021)
+========
+* Added : Certificate Date issued placeholder.
+
+Ver 4.6 (1-Feb-2021)
+========
+* Fixed : Fee Type issue.
+* Adeed : Bulk Deletion For students, fee, batch, courses, Exam, study material, enquiries, expense etc.
+
+Ver 4.5 (28 Jan 2020)
+========
+* Added : Certificate Batch selection bug fixed.
+
+Ver 4.4 (20 Jan 2020)
+========
+* Added : Certificate in seperate tab added.
+* changed: old Certificate is removed now you have to config layout for certificate.
+
+Ver 4.3 (22 Dec 2020)
+========
+* Updated : Phpmailer.
+* Nexmo   : API Package Updated.
+
+Ver 4.2 (02 july 2020)
+========
+* Fixed : Course table error.
+* Added : SMS field in auurumdigital Channel, Route.
+* Added : Added noticeboard SHORTCODE.
+
+Ver 4.1 (02 july 2020)
+========
+* added : sms api auurumdigital.
+
+Ver 4.0 (02 May 2020)
+========
+* Fixed admit card issue.
+
+Ver 3.9 (05 March 2020)
+========
+* Added institute registration number field.
+* Registration number added in Admission Form, Fee Receipt, Admit Card.
+
+Ver 3.8 (04 March 2020)
+========
+* Set courses status directly when updating institute
+
+Ver 3.7 (03 March 2020)
+========
+* Added Enquiry Reminders in Dashboard
+* Added Reference field in Enquiry
+
+Ver 3.6 (27 Feburary 2020)
+========
+* Assign courses to institute by administrator
+* Restrict institute to add, edit or delete courses
+* Added Paystack payment gateway
+
+Ver 3.5 (31 December 2019)
+========
+* Added CSV export and Print option in Report
+
+Ver 3.4 (27 December 2019)
+========
+* Added EBulkSMS SMS carrier
+
+Ver 3.3 (26 December 2019)
+========
+* Added multiple batch selection in attendance report
+
+Ver 3.2 (24 December 2019)
+========
+* Added in report enquiries
+* Added in enquiries follow up and note
+
+Ver 3.1 (20 December 2019)
+========
+* Added new template to send birthday wishes to students
+* Added multiple batch selection when taking attendance
+
+Ver 3.0 (19 December 2019)
+========
+* Added datepicker when adding new invoice.
+* Added datepicker when adding new fee installment
+* Added outstanding fees invoice report - date wise
+
+Ver 2.9 (11 December 2019)
+========
+* Fixed batch validation error when course is less than a month.
+
+Ver 2.8 (10 December 2019)
+========
+* Added Textlocal SMS provider
+
+Ver 2.7 (02 November 2019)
+========
+* Added MsgClub SMS provider
+
+Ver 2.6 (30 October 2019)
+========
+* Fixed Monthly Fees Bug
+
+Ver 2.5 (25 September 2019)
+========
+* Allowed Ended Batches when adding Students
+
+Ver 2.4 (30 August 2019)
+========
+* Updated License Code
+
+Ver 2.3 (13 July 2019)
+========
+* Added New Shortcode for Exam Results By Name
+
+Ver 2.2 (02 July 2019)
+========
+* Added Optional Roll Number Field Setting
+
+Ver 2.1 (28 June 2019)
+========
+* Monthly Fees Validation Bug Fix
+
+Ver 2.0 (19 June 2019)
+========
+* Added Custom Registration Date Field
+* Added Custom Signature Upload Functionality
+
+Ver 1.9 (17 June 2019)
+========
+* Added Certificate Shortcode
+
+Ver 1.8 (03 June 2019)
+========
+* Added ID Card Shortcode
+
+Ver 1.7 (25 May 2019)
+========
+* Added Admit Card Shortcode
+* Added Admit Card in Student Dashboard
+* Added Admit Card in Admin Dashboard
+
+Ver 1.6 (03 May 2019)
+========
+* Fixed ID Card Layout in mobile devices
+
+Ver 1.5 (24 April 2019)
+========
+* Fixed Validation Issue When Adding a Batch
+
+Ver 1.4 (26 Mar 2019)
+========
+* Export Student Records to PDF, CSV
+
+Ver 1.3 (01 Mar 2019)
+========
+* Added Reset Plugin Functionality
+
+Ver 1.2 (25 Feb 2019)
+========
+* Added Monthly Fees and Invoices
+
+Ver 1.1 (21 Feb 2019)
+========
+* Added Envato License Check
+
+Ver 1.0 (20 Feb 2019)
+========
+* New Release

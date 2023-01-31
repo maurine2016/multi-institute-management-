@@ -1,0 +1,1033 @@
+div.dataTables_wrapper div.dataTables_length select {
+    width: -webkit-fill-available;
+}
+
+.select.bulk-action-select {
+    max-width: 100px;
+    border-radius: 0;
+    border-color: #cdcdcd;
+  }
+  .bulk-action-btn {
+    border-radius: 0;
+  }
+
+input[type=number] {
+    height: unset;
+    line-height: unset;
+}
+
+textarea {
+    resize: vertical;
+}
+
+textarea[name="institute_pro_address"] {
+    min-height: 105px;
+}
+
+textarea[name="course_detail"] {
+    min-height: 86px;
+}
+
+textarea[name="address"] {
+    min-height: 86px;
+}
+
+textarea[name="description"] {
+    min-height: 86px;
+}
+
+textarea[name="note"] {
+    min-height: 86px;
+}
+
+textarea[name="extra_details"] {
+    min-height: 86px;
+}
+
+textarea[name="notice_title"] {
+    min-height: 86px;
+}
+
+.wlim_select_col {
+    margin-top: -2px;
+}
+
+.wlim-institute_sign {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.photo-signature {
+    max-height: 250px;
+    max-width: 100%;
+}
+
+.wlim-date_of_birth {
+    z-index: 3000 !important;
+}
+
+#wlim-institute_pro_logo {
+    max-height: 250px;
+    max-width: 250px;
+}
+
+.wlim-student-heading {
+    font-size: 25px;
+}
+
+.wlim-student-name-heading {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.wlim-noticeboard-section {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.wlim-noticeboard, .wlim-noticeboard-all {
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.wlim-noticeboard {
+    top: 6em;
+    animation: marquee 13s linear infinite;
+}
+
+.wlim-noticeboard:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% {
+        top: 8em
+    }
+    100% {
+        top: -8em
+    }
+}
+
+.wlim-noticboard-background {
+    background-color: #1273aa;
+}
+
+.wlim-noticeboard-notice {
+    color: #023871;
+    font-weight: 600;
+}
+
+.wlim-student-fee-status, .wlim-student-fee-amount {
+    font-size: 18px;
+}
+
+.wlim-student-fee-status {
+    font-weight: 600;
+}
+
+.wlim-institute-dashboard-title span {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+#wlim-multi_institute_university_logo {
+    max-height: 120px;
+    max-width: 120px;
+}
+
+#wlmim-result-institute-logo {
+    max-height: 80px;
+    max-width: 80px;
+}
+
+#wlmim-result-institute-address {
+    font-size: 14px;
+}
+
+#wlmim-result-institute-title-box {
+    padding-top: 5px;
+}
+
+#wlmim-result-institute-contact-phone, #wlmim-result-institute-contact-email {
+    font-size: 14px;
+}
+
+#wlmim-result-institute-name {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+#wlim-institute_advanced_logo {
+    max-width: 225px;
+    max-height: 225px;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 900px !important;
+    }
+
+    #print-student, #print-student-admission-detail, #print-student-fees-report, #print-student-pending-fees, #print-student-certificate, #print-installment-fee-receipt, #print-invoice-fee-invoice {
+        z-index: 9999;
+    }
+
+    #print-student-dialog, #print-student-admission-detail-dialog, #print-student-fees-report-dialog, #print-student-pending-fees-dialog, #print-student-certificate-dialog, #print-installment-fee-receipt-dialog, #print-invoice-fee-invoice-dialog {
+        max-width: 1980px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .wlim-result-add-student-marks {
+        z-index: 9999;
+    }
+
+    .wlim-result-add-student-marks-dialog {
+        max-width: 700px !important;
+    }
+
+    #print-id-cards {
+        z-index: 9999;
+    }
+
+    #print-id-cards .modal-dialog {
+        max-width: 650px !important;
+    }
+
+    #print-id-cards-dialog {
+        max-width: 1980px !important;
+    }
+}
+
+/* Start: Admit card */
+#wl-admit-card-photo-box {
+    height: 150px;
+    width: 130px;
+    border: 1px solid #b3b3b3;
+    padding: 5px;
+    text-align: center;
+}
+#wl-admit-card-photo {
+    height: 140px;
+}
+#wl-admit-card-photo {
+    width: 120px;
+}
+@media print {
+    #wlmim-admit-card-print th, #wlmim-admit-card-print td {
+        border: 0;
+    }
+    #wlmim-admit-card-print .col-sm-9 {
+        width: 75%;
+    }
+    #wlmim-admit-card-print .col-sm-3 {
+        width: 25%;
+    }
+}
+
+/* Start: Admission detail */
+#wl-admission-detail {
+    max-width: 100%;
+    width: 1240px;
+    height: 1754px;
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#wl-admission-detail-box {
+    margin-top: 30px;
+}
+
+#wl-admission-detail .list-group-item, #wl-admission-detail table {
+    font-size: 16px;
+}
+
+#wl-admission-detail-photo-box {
+    height: 245px;
+}
+
+#wl-admission-detail-photo {
+    height: 225px;
+}
+
+#wl-admission-detail-signature-box {
+    height: 95px;
+}
+
+#wl-admission-detail-signature {
+    height: 85px;
+}
+
+#wl-admission-detail-photo, #wl-admission-detail-signature {
+    width: 175px;
+}
+
+.wl-admission-detail-signature-box-row {
+    margin-top: 200px;
+    align-items: flex-end;
+}
+
+@media print {
+    .wl-admission-detail-signature-box-row {
+        margin-top: 150px;
+    }
+}
+
+#wl-admission-detail-photo-box, #wl-admission-detail-signature-box {
+    width: 185px;
+    border: 1px solid #b3b3b3;
+    padding: 5px;
+}
+
+#wl-institute-pro-admission-detail-logo {
+    max-height: 80px;
+    max-width: 80px;
+}
+
+#wl-admission-detail-address {
+    font-size: 15px;
+}
+
+#wl-admission-detail-contact-phone, #wl-admission-detail-contact-email {
+    font-size: 15px;
+}
+
+.wl-admission-detail-subtitle {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #e4e4e4 !important;
+}
+
+#wl-admission-detail-form-number,
+#wl-admission-detail-registration-number {
+    font-size: 14px;
+}
+
+#wl-admission-detail-name {
+    font-size: 22px;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+/* End: Admission detail */
+
+/* Start: Certificate */
+#wl-certificate {
+    width: 1240px;
+    max-width: 100%;
+    height: 1754px;
+    max-height: 100%;
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#wl-certificate-box {
+    margin-top: 30px;
+}
+
+#wl-certificate-content-box {
+    margin: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    #wl-certificate-content-box {
+        margin: 0;
+    }
+    #wl-certificate-content-box .display-3 {
+        font-size: 2.5rem;
+    }
+    .wl-certificate-signature-box-row {
+        font-size: 1rem;
+    }
+}
+
+#wl-institute-pro-certificate-logo {
+    max-height: 120px;
+    max-width: 120px;
+}
+
+#wl-certificate-number,
+.wl-certificate-number {
+    font-size: 16px;
+}
+
+#wl-certificate-name {
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.wl-certificate-text {
+    font-size: 36px;
+}
+
+.wl-certificate-signature-box-row {
+    margin-top: 200px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+/* End: Certificate */
+
+/* Start: Fee Receipt */
+#wl-installment-fee-receipt {
+    width: 1240px;
+    height: 1754px;
+    margin: 0 auto;
+}
+
+#wl-installment-fee-receipt-box {
+    max-width: 750px;
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#wl-installment-fee-receipt .list-group-item {
+    font-size: 13px;
+}
+
+#wl-installment-fee-receipt table tr {
+    font-size: 13px;
+}
+
+#wl-installment-fee-receipt-photo-box, #wl-installment-fee-receipt-photo {
+    height: 160px;
+    width: 124px;
+}
+
+#wl-installment-fee-receipt-photo-box {
+    border: 1px solid #b3b3b3;
+}
+
+#wl-installment-fee-receipt-signature-box, #wl-installment-fee-receipt-signature {
+    height: 70px;
+    width: 124px;
+    border: 1px solid #b3b3b3;
+}
+
+#wl-installment-fee-receipt-signature-box {
+    border: 1px solid #b3b3b3;
+}
+
+#wl-institute-pro-fee-receipt-logo {
+    max-height: 70px;
+    max-width: 70px;
+}
+
+#wl-fee-receipt-address {
+    font-size: 12px;
+}
+
+#wl-installment-fee-receipt-title-box {
+    padding-top: 25px;
+}
+
+#wl-installment-fee-receipt-title {
+    font-weight: 600;
+    background-color: #6c757d !important;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.wl-fee-receipt-signature-box-row {
+    margin-top: 380px;
+}
+
+#wl-fee-receipt-photo-box, #wl-admission-detail-signature-box {
+    width: 185px;
+    border: 1px solid #b3b3b3;
+    padding: 5px;
+}
+
+#wl-fee-receipt-contact-phone, #wl-fee-receipt-contact-email {
+    font-size: 12px;
+}
+
+.wl-receipt-number {
+    font-size: 13px;
+}
+
+#wl-fee-receipt-name {
+    font-size: 19px;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+/* End: Fee Receipt */
+
+/* Start: Fees Report */
+.wl-fees-report-section {
+    width: 1131px;
+    height: 1600px;
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.wl-fees-report-box {
+    margin-top: 30px;
+}
+
+.wl-institute-pro-fees-report-logo {
+    max-height: 70px;
+    max-width: 70px;
+}
+
+.wl-fees-report-section .list-group-item {
+    font-size: 12px;
+}
+
+.wl-fees-report-section table tr {
+    font-size: 12px;
+}
+
+.wl-fees-report-address {
+    font-size: 11px;
+}
+
+.wl-fees-report-contact-phone, .wl-fees-report-contact-email {
+    font-size: 11px;
+}
+
+.wl-fees-report-subtitle {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #6c757d !important;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.wl-fees-report-copy {
+    font-size: 14px;
+}
+
+.wl-fees-report-name {
+    font-size: 17px;
+}
+
+.wl-fees-report-authorised-by-row {
+    margin-top: 24px;
+    font-size: 12px;
+    float: right;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+/* End: Fees Report */
+
+/* Start: ID Card */
+#wl-id-card .list-group-item {
+    padding: 2px 0;
+}
+
+#wl-id-card {
+    max-width: 100%;
+    width: 1240px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#wl-id-card-box {
+    width: 530px;
+    height: 365px;
+    max-width: 100%;
+    border: 1px solid #b3b3b3;
+    padding: 15px 0 5px 0;
+    margin: 0 auto;
+}
+
+.wl-id-card-registration-number {
+    font-size: 11px;
+    position: absolute;
+    right: 15px;
+    top: -15px;
+}
+
+@media only screen and (max-width: 600px) {
+    #wl-id-card-box .col-4 {
+        padding-left: 20px !important;
+        padding-right: 0 !important;
+    }
+    #wl-id-card-box .wl-id-card-signature-box-row {
+        padding-top: 5px;
+        margin-top: 0;
+    }
+    #wl-admission-detail-photo-box, #wl-admission-detail-signature-box {
+        display: none;
+    }
+    #wl-admission-detail .list-group-item, #wl-admission-detail table {
+        font-size: .8rem;
+    }
+    #wl-admission-detail .list-group-item, #wl-admission-detail table {
+        font-size: .8rem;
+    }
+    #wl-admission-detail .col-9, #wl-admission-detail .col-3 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100%  !important;
+    }
+}
+
+#wl-id-card .list-group-item {
+    font-size: 14px;
+}
+
+#wl-id-card-address {
+    font-size: 12px;
+}
+
+#wl-id-card-photo-box {
+    max-height: 100%;
+    height: 150px;
+}
+
+#wl-id-card-photo {
+    height: 148px;
+    width: 98px;
+}
+
+#wl-id-card-photo-box {
+    max-width: 100%;
+    width: 100px;
+    border: 1px solid #b3b3b3;
+}
+
+#wl-institute-pro-id-card-logo {
+    max-height: 70px;
+    max-width: 70px;
+}
+
+#wl-id-card-title-box {
+    padding-top: 5px;
+}
+
+#wl-id-card-title {
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #6c757d !important;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+#wl-id-card-contact-phone, #wl-id-card-contact-email {
+    font-size: 12px;
+}
+
+#wl-id-card-name {
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.wl-id-card-signature-box-row {
+    margin-top: 14px;
+    font-size: 11px;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+
+    #wl-id-card .list-group-item {
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+    }
+}
+
+/* End: ID Card */
+
+/* Start: ID Cards */
+#wl-print-id-cards .list-group-item {
+    padding: 2px 0;
+}
+
+#wl-print-id-cards {
+    width: 1240px;
+    height: auto;
+    margin: 0 auto !important;
+}
+
+.wl-id-cards-box {
+    width: 530px;
+    height: 365px;
+    border: 1px solid #b3b3b3;
+    padding: 15px 0 5px 0;
+    margin-top: 30px;
+}
+
+#wl-print-id-cards .list-group-item {
+    font-size: 14px;
+}
+
+.wl-id-cards-address {
+    font-size: 12px;
+}
+
+.wl-id-cards-photo-box {
+    height: 150px;
+}
+
+.wl-id-cards-photo {
+    height: 148px;
+    width: 98px;
+}
+
+.wl-id-cards-photo-box {
+    width: 100px;
+    border: 1px solid #b3b3b3;
+}
+
+.wl-institute-pro-id-card-logo {
+    max-height: 70px;
+    max-width: 70px;
+}
+
+.wl-id-cards-title-box {
+    padding-top: 5px;
+}
+
+.wl-id-cards-title {
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #6c757d !important;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.wl-id-cards-contact-phone, .wl-id-cards-contact-email {
+    font-size: 12px;
+}
+
+.wl-id-cards-name {
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.wl-id-cards-signature-box-row {
+    margin-top: 14px;
+    font-size: 11px;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        overflow: visible;
+    }
+
+    .wlmim-page {
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+    }
+
+    .wlmim-page {
+        width: 43.5%;
+        float: left;
+    }
+
+    .wlmim-page:nth-of-type(2n) {
+        margin-left: 2px;
+    }
+
+    .wlmim-page:nth-of-type(2n+1) {
+        margin-right: 2px;
+    }
+
+    .wlmim-page:nth-of-type(8n+1) {
+        page-break-inside: avoid;
+        page-break-after: always;
+        display: block;
+    }
+
+    .wlmim-page .list-group-item {
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+    }
+}
+
+/* End: ID Cards */
+
+/* Start: Pending Fees */
+.wl-pending-fees-section {
+    width: 650px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.wl-pending-fees-box {
+    margin-top: 10px;
+}
+
+.wl-institute-pro-pending-fees-logo {
+    max-height: 70px;
+    max-width: 70px;
+}
+
+.wl-pending-fees-section .list-group-item {
+    font-size: 12px;
+}
+
+.wl-pending-fees-section table tr {
+    font-size: 12px;
+}
+
+.wl-pending-fees-address {
+    font-size: 11px;
+}
+
+.wl-pending-fees-contact-phone, .wl-pending-fees-contact-email {
+    font-size: 11px;
+}
+
+.wl-pending-fees-subtitle {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #6c757d !important;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.wl-pending-fees-copy {
+    font-size: 14px;
+}
+
+.wl-pending-fees-name {
+    font-size: 17px;
+}
+
+.wl-pending-fees-authorised-by-row {
+    margin-top: 24px;
+    font-size: 12px;
+    float: right;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+/* End: Pending Fees */
+
+/* Start: Student Fees Report */
+.wl-fees-report-section {
+    width: 1131px;
+    height: 1600px;
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.wl-fees-report-box {
+    margin-top: 30px;
+}
+
+.wl-institute-pro-fees-report-logo {
+    max-height: 70px;
+    max-width: 70px;
+}
+
+.wl-fees-report-section .list-group-item {
+    font-size: 12px;
+}
+
+.wl-fees-report-section table tr {
+    font-size: 12px;
+}
+
+.wl-fees-report-address {
+    font-size: 11px;
+}
+
+.wl-fees-report-contact-phone, .wl-fees-report-contact-email {
+    font-size: 11px;
+}
+
+.wl-fees-report-subtitle {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #6c757d !important;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.wl-fees-report-copy {
+    font-size: 14px;
+}
+
+.wl-fees-report-name {
+    font-size: 17px;
+}
+
+.wl-fees-report-authorised-by-row {
+    margin-top: 24px;
+    font-size: 12px;
+    float: right;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+/* End: Student Fees Report */
+
+/* Start: Invoice */
+#wl-invoice-fee-invoice {
+    width: 1240px;
+    height: auto;
+    margin-left: 50px;
+}
+
+#wl-invoice-fee-invoice-box {
+    font-size: 18px !important;
+    max-width: 750px;
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#wl-invoice-fee-invoice .list-group-item {
+    font-size: 16px;
+}
+
+#wl-invoice-fee-invoice table tr {
+    font-size: 16px;
+}
+
+#wl-invoice-fee-invoice-photo-box, #wl-invoice-fee-invoice-photo {
+    height: 160px;
+    width: 124px;
+}
+
+#wl-invoice-fee-invoice-photo-box {
+    border: 1px solid #b3b3b3;
+}
+
+#wl-invoice-fee-invoice-signature-box, #wl-invoice-fee-invoice-signature {
+    height: 70px;
+    width: 124px;
+    border: 1px solid #b3b3b3;
+}
+
+#wl-invoice-fee-invoice-signature-box {
+    border: 1px solid #b3b3b3;
+}
+
+#wl-institute-pro-fee-invoice-logo {
+    max-height: 70px;
+    max-width: 70px;
+}
+
+#wl-fee-invoice-address {
+    font-size: 12px;
+ }
+
+#wl-invoice-fee-invoice-title-box {
+    padding-top: 25px;
+}
+
+#wl-invoice-fee-invoice-title {
+    font-weight: 600;
+    background-color: #6c757d !important;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.wl-fee-invoice-signature-box-row {
+    margin-top: 380px;
+}
+
+#wl-fee-invoice-photo-box, #wl-admission-detail-signature-box {
+    width: 185px;
+    border: 1px solid #b3b3b3;
+    padding: 5px;
+}
+
+#wl-fee-invoice-contact-phone, #wl-fee-invoice-contact-email {
+    font-size: 12px;
+}
+
+.wl-invoice-number {
+    font-size: 13px;
+}
+
+#wl-fee-invoice-name {
+    font-size: 19px;
+}
+/* End: Invoice */
+
+/* Signature */
+#wl-id-card .wl-authorized-by, #wl-print-id-cards .wl-authorized-by {
+    position: absolute;
+    left: 50px;
+    top: 160px;
+    width: 100px;
+    height: 40px;
+}
+#wl-certificate .wl-authorized-by {
+    position: absolute;
+    left: 396px;
+    top: -80px;
+    width: 160px;
+    height: 80px;
+}
+@media print {
+    #wl-certificate .wl-authorized-by {
+        position: absolute;
+        left: 310px;
+        top: -70px;
+        width: 140px;
+        height: 70px;
+    }
+}
+#wlmim-admit-card-print .wl-authorized-by {
+    position: absolute;
+    left: 2px;
+    top: 164px;
+    width: 160px;
+    height: 55px;
+}
+@media print {
+    #wlmim-admit-card-print .wl-authorized-by {
+        position: absolute;
+        left: 2px;
+        top: 164px;
+        width: 160px;
+        height: 55px;
+    }
+}
+/* End Signature */
